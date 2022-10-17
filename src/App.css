@@ -1,0 +1,45 @@
+
+body {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    font-family: sans-serif;
+}
+
+nav {
+    margin-bottom: 30px;
+}
+.toolbar {
+    padding: 10px;
+    border: 1px solid black;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.toolbar:hover {
+    color: white;
+    background-color: #333;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    column-gap: 10px;
+    align-content: start;
+}
+
+img {
+    width: 200px;
+    vertical-align: top;
+}
+
+.list {
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    height: 800px;
+    gap: 20px;
+}
